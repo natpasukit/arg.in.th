@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+.login-container{
+  text-align: center;
+  padding-top: 10%;
+  margin: 0;
+  /*animate css delat*/
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}

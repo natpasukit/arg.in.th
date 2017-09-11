@@ -1,0 +1,2 @@
+[2017-09-10 16:46:09] front_log.INFO: Get user ip ::1 [] []
+[2017-09-10 16:46:11] front_log.INFO: Connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.  [] []
