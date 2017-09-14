@@ -142,8 +142,14 @@ $app->put('/user/{id}', function (Request $request, Response $response) {
  $app->post('/server/update', function (Request $request, Response $response) {
    // Call shellscript
    echo shell_exec('sh /home/argsteam/script/CheckUpdate.sh');
-   $result = 'On development'
-   return $response->$result;
+   $result = 'Server Updated';
+   return $result;
+ });
+
+ $app->post('/server/restart/{token}',function(Request $request, Response $response){
+   echo shell_exec();
+   $result = 'server ';
+   return $renponse->$result;
  });
 $app->run();
 ?>
